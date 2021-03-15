@@ -223,11 +223,18 @@ select {
   top: 90%;
   left: 50%;
 }
-#mission {
-  height: 500px;
-  background: url(../img/mission-img.jpg) no-repeat;
+
+.link {
+  padding: 5px 20px;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  border: 1px #000 solid;
+  border-radius: 3px;
+  transition: 0.4s ease;
 }
 
-body {
-  background-color: black;
+.link:hover {
+  color: #fff;
+  background: #fff;
 }
