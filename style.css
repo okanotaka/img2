@@ -224,8 +224,8 @@ select {
   left: 50%;
 }
 #mission {
-  width: 100px;
-  height: 100px;
+  height: 500px;
+  background: url(../img/mission-img.jpg) no-repeat;
 }
 
 body {
