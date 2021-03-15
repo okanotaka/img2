@@ -208,9 +208,26 @@ select {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 100px;
+  font-size: 80px;
   font-style: italic;
   font-weight: bold;
   color: #ccc;
   line-height: 1;
+}
+.title {
+  font-size: 20px;
+  padding: 5px;
+  background: #fff;
+  width: 50%;
+  position: relative;
+  top: 90%;
+  left: 50%;
+}
+#mission {
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  background-color: black;
 }
