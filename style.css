@@ -1,62 +1,102 @@
+.header {
+  height: 70px;
+  background: #000;
+}
 
-<!DOCTYPE html>
-<html lang="ja">
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>COACHTECH</title>
-  <link rel="stylesheet" href="style.css"/>
-</head>
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
 
-<body>
-<header class="header">
-  <div class="header-wrap">
-    <h1 class="header-logo">estra inc.</h1>
-    <nav class="header-nav">
-      <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">service</a></li>
-        <li><a href="#">works</a></li>
-        <li><a href="#">price</a></li>
-        <li><a href="#">contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>  
-<main>
-  <div id="eyecatch">
-    <p>機械ではできない仕事を</p>
-    <h2 class="title">2019/01/01ニュースタイトルがここに入ります。３月決算報告書</h2>
+.header-nav ul {
+  display: flex;
+}
 
-  </div>
+.header-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+}
 
-     
+.header-nav a {
+  color: #f2f2f2;
+}
+#eyecatch {
+  height: 600px;
+  background: url(..//img/eyecatch.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
 
-     <div class="お客様のために進化する成長企業であり続ける">
-     <h2 class="section-title">お客様のために進化する成長企業であり続ける></h2>  
+#eyecatch p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+}
+.title {
+  font-size: 20px;
+  padding: 5px;
+  background: #fff;
+  width: 50%;
+  position: relative;
+  top: 90%;
+  left: 50%;
+}
 
-     <div class="お客様のために進化する成長企業であり続ける-wrap">
-       <div class= "お客様のために進化する成長企業であり続ける-left">
+img {
+  width: 40%;
 
-        <img src="img/mission-img.jpg" alt="" />
-          <p>顧客主導型サービスを提供する企業として、お客様の会社経営に必要なサービスと情報を提供し続ける企業支援会社を目指します。企業が現在直面している「勝ち残るため」の戦略を提供できる会社として、ホームページをはじめ、各種マーケティングをご提供致します。</p>
-          <a class="link" href="飛ばしたいページのpath">ミッション詳細</a>
-       </div>
-
-     </div>
-     </div>
-
-
-    
-
-     
-  
-  
-
-</main>
-  <footer></footer>
-</body>
-
-</html>
+  position: relative;
+  left: 60%;
+  top: 50px;
+}
+body {
+  background-color: #000;
+}
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+p {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.link {
+  padding: 5px 20px;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  border: 1px #fff solid;
+  border-radius: 3px;
+  transition: 0.4s ease;
+}
+.link:hover {
+  color: #fff;
+  background: #fff;
+}
