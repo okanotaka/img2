@@ -1,240 +1,62 @@
-html,
-body,
-div,
-span,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-abbr,
-address,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-samp,
-small,
-strong,
-sub,
-sup,
-var,
-b,
-i,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-}
 
-body {
-  line-height: 1;
-}
+<!DOCTYPE html>
+<html lang="ja">
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COACHTECH</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
 
-nav ul {
-  list-style: none;
-}
+<body>
+<header class="header">
+  <div class="header-wrap">
+    <h1 class="header-logo">estra inc.</h1>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">service</a></li>
+        <li><a href="#">works</a></li>
+        <li><a href="#">price</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>  
+<main>
+  <div id="eyecatch">
+    <p>機械ではできない仕事を</p>
+    <h2 class="title">2019/01/01ニュースタイトルがここに入ります。３月決算報告書</h2>
 
-blockquote,
-q {
-  quotes: none;
-}
+  </div>
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
+     
 
-a {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-}
+     <div class="お客様のために進化する成長企業であり続ける">
+     <h2 class="section-title">お客様のために進化する成長企業であり続ける></h2>  
 
-/* change colours to suit your needs */
-ins {
-  background-color: #ff9;
-  color: #000;
-  text-decoration: none;
-}
+     <div class="お客様のために進化する成長企業であり続ける-wrap">
+       <div class= "お客様のために進化する成長企業であり続ける-left">
 
-/* change colours to suit your needs */
-mark {
-  background-color: #ff9;
-  color: #000;
-  font-style: italic;
-  font-weight: bold;
-}
+        <img src="img/mission-img.jpg" alt="" />
+          <p>顧客主導型サービスを提供する企業として、お客様の会社経営に必要なサービスと情報を提供し続ける企業支援会社を目指します。企業が現在直面している「勝ち残るため」の戦略を提供できる会社として、ホームページをはじめ、各種マーケティングをご提供致します。</p>
+          <a class="link" href="飛ばしたいページのpath">ミッション詳細</a>
+       </div>
 
-del {
-  text-decoration: line-through;
-}
+     </div>
+     </div>
 
-abbr[title],
-dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help;
-}
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
+    
 
-/* change border colour to suit your needs */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #cccccc;
-  margin: 1em 0;
-  padding: 0;
-}
+     
+  
+  
 
-input,
-select {
-  vertical-align: middle;
-}
+</main>
+  <footer></footer>
+</body>
 
-.header {
-  height: 70px;
-  background: #000;
-}
-
-.header-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-logo {
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 35px;
-  color: #f2f2f2;
-  line-height: 70px;
-}
-
-.header-nav ul {
-  display: flex;
-}
-
-.header-nav li {
-  margin-right: 35px;
-  font-size: 16px;
-}
-
-.header-nav a {
-  color: #f2f2f2;
-}
-#eyecatch {
-  height: 600px;
-  background: url(../img/eyecatch.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-#eyecatch p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 80px;
-  font-style: italic;
-  font-weight: bold;
-  color: #ccc;
-  line-height: 1;
-}
-.title {
-  font-size: 20px;
-  padding: 5px;
-  background: #fff;
-  width: 50%;
-  position: relative;
-  top: 90%;
-  left: 50%;
-}
-
-.link {
-  padding: 5px 20px;
-  font-size: 14px;
-  color: #000;
-  text-decoration: none;
-  border: 1px #000 solid;
-  border-radius: 3px;
-  transition: 0.4s ease;
-}
-
-.link:hover {
-  color: #fff;
-  background: #fff;
-}
+</html>
