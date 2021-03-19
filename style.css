@@ -66,14 +66,14 @@ img {
   top: 50px;
 }
 body {
-  background-color: #000;
+  background-color: black;
 }
+
 .section-title {
   font-size: 30px;
   font-weight: bold;
   color: #fff;
   position: relative;
-  top: 200px;
   left: 50px;
 }
 .wrap {
@@ -81,13 +81,12 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-.p {
-  position: absolute;
+p {
+  position: relative;
   display: flexbox;
   left: 50px;
-  height: 600px;
   color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 .link {
   padding: 5px 20px;
