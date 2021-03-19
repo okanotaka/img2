@@ -31,7 +31,7 @@
 }
 #eyecatch {
   height: 600px;
-  background: url(..//img/eyecatch.jpg) no-repeat;
+  background: url(./img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -82,8 +82,7 @@ body {
   justify-content: space-around;
 }
 p {
-  position: relative;
-  text-align: center;
+  position: absolute;
   color: #fff;
   margin-bottom: 15px;
 }
