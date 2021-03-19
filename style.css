@@ -74,31 +74,38 @@ body {
   font-weight: bold;
   color: #fff;
   position: relative;
-  margin-bottom: 100px;
   left: 50px;
+  bottom: 200px;
 }
 .wrap {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+.right {
+  position: relative;
+  top: auto;
+  left: auto;
+}
 p {
   position: relative;
   display: flexbox;
   left: 50px;
   color: #fff;
-  margin-bottom: 50px;
+  margin: 0;
+  bottom: 150px;
 }
 .link {
   padding: 5px 20px;
   position: relative;
   font-size: 12px;
   color: #fff;
-  text-decoration: none;
+  text-decoration: #fff;
   border: 1px #fff solid;
   border-radius: 3px;
   transition: 0.4s ease;
-  left: 60px;
+  left: 50px;
+  bottom: 100px;
 }
 .link:hover {
   color: #fff;
