@@ -112,12 +112,11 @@ p {
   color: #fff;
   background: #fff;
 }
-
 .background-gray {
+  background-color: gray;
   position: relative;
+  height: 100%;
   width: 100%;
-  height: 100px;
-  background: gray;
 }
 
 #WEB製作事業.section-title {
