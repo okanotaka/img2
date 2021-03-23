@@ -255,7 +255,6 @@ body {
 }
 p {
   position: relative;
-  display: flexbox;
   left: 50px;
   color: #fff;
   margin: 0;
@@ -279,9 +278,8 @@ p {
   background: #fff;
 }
 .background- {
+  color: #000000;
   background-color: gray;
-  height: 100%;
-  width: 100%;
 }
 
 #WEB製作事業.section-title {
