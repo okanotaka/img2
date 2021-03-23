@@ -1,165 +1,3 @@
-.header {
-  height: 70px;
-  background: #000;
-}
-
-.header-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-logo {
-  font-size: 20px;
-  font-weight: bold;
-  margin-left: 35px;
-  color: #f2f2f2;
-  line-height: 70px;
-}
-
-.header-nav ul {
-  display: flex;
-}
-
-.header-nav li {
-  margin-right: 35px;
-  font-size: 16px;
-}
-
-.header-nav a {
-  color: #f2f2f2;
-}
-#eyecatch {
-  height: 600px;
-  background: url(./img/eyecatch.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-#eyecatch p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 80px;
-  font-style: italic;
-  font-weight: bold;
-  color: #ccc;
-  line-height: 1;
-}
-.title {
-  font-size: 20px;
-  padding: 5px;
-  background: #fff;
-  width: 50%;
-  position: relative;
-  top: 90%;
-  left: 50%;
-}
-
-img {
-  width: 40%;
-
-  position: relative;
-  left: 60%;
-  top: 50px;
-}
-body {
-  background-color: black;
-}
-
-.section-title {
-  font-size: 30px;
-  font-weight: bold;
-  color: #fff;
-  position: relative;
-  left: 50px;
-  bottom: 200px;
-}
-.wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.right {
-  position: relative;
-  top: auto;
-  left: auto;
-}
-p {
-  position: relative;
-  display: flexbox;
-  left: 50px;
-  color: #fff;
-  margin: 0;
-  bottom: 150px;
-}
-.link {
-  padding: 5px 20px;
-  position: relative;
-  font-size: 12px;
-  color: #000;
-  background-color: #fff;
-  text-decoration: none;
-  border: 1px #fff solid;
-  border-radius: 3px;
-  transition: 0.4s ease;
-  left: 50px;
-  bottom: 100px;
-}
-.link:hover {
-  color: #fff;
-  background: #fff;
-}
-.background- {
-  background-color: gray;
-  height: 100%;
-  width: 100%;
-}
-
-#WEB製作事業.section-title {
-  font-size: 30px;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  padding: 40px 0;
-  margin: 0;
-}
-
-.business-wrap {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.business-cat {
-  width: 28%;
-  background-color: rgba(51, 51, 51, 0.5);
-  padding: 20px 35px 30px;
-  box-sizing: border-box;
-  margin-bottom: 50px;
-}
-
-.business-cat h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #fff;
-}
-
-.p {
-  color: #fff;
-}
-
-.WEB制作事業 img {
-  width: 100px;
-  display: flex;
-  justify-content: flex-end;
-  height: auto;
-  margin: 0 auto 10px;
-}
 html,
 body,
 div,
@@ -324,4 +162,167 @@ hr {
 input,
 select {
   vertical-align: middle;
+}
+
+.header {
+  height: 70px;
+  background: #000;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 70px;
+}
+
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+#eyecatch {
+  height: 600px;
+  background: url(./img/eyecatch.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#eyecatch p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  font-style: italic;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+}
+.title {
+  font-size: 20px;
+  padding: 5px;
+  background: #fff;
+  width: 50%;
+  position: relative;
+  top: 90%;
+  left: 50%;
+}
+
+img {
+  width: 40%;
+
+  position: relative;
+  left: 60%;
+  top: 50px;
+}
+body {
+  background-color: black;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  left: 50px;
+  bottom: 200px;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.right {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+p {
+  position: relative;
+  display: flexbox;
+  left: 50px;
+  color: #fff;
+  margin: 0;
+  bottom: 150px;
+}
+.link {
+  padding: 5px 20px;
+  position: relative;
+  font-size: 12px;
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+  border: 1px #fff solid;
+  border-radius: 3px;
+  transition: 0.4s ease;
+  left: 50px;
+  bottom: 100px;
+}
+.link:hover {
+  color: #fff;
+  background: #fff;
+}
+.background- {
+  background-color: gray;
+  height: 100%;
+  width: 100%;
+}
+
+#WEB製作事業.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  padding: 40px 0;
+  margin: 0;
+}
+
+.business-wrap {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.business-cat {
+  width: 28%;
+  background-color: rgba(51, 51, 51, 0.5);
+  padding: 20px 35px 30px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.business-cat h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.p {
+  color: #fff;
+}
+
+.WEB制作事業 img {
+  width: 100px;
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+  margin: 0 auto 10px;
 }
