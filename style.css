@@ -234,6 +234,11 @@ img {
 body {
   background-color: black;
 }
+#WEB制作事業 {
+  background-color: #808080;
+  width: 100px;
+  height: 100px;
+}
 
 .section-title {
   font-size: 30px;
@@ -276,9 +281,6 @@ p {
 .link:hover {
   color: #fff;
   background: #fff;
-}
-#WEB製作事業 {
-  background-color: gray;
 }
 
 #WEB製作事業.section-title {
