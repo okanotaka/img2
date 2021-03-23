@@ -236,8 +236,9 @@ body {
 }
 #WEB制作事業 {
   background-color: #808080;
-  width: 100px;
-  height: 100px;
+
+  width: 100%;
+  height: 500px;
 }
 
 .section-title {
